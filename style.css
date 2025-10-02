@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+hr + p {
+    padding-top: 5%;
+}
+
+hr + div {
+    padding-top: 5%;
+}
+
+p + h2 {
+    padding-top: 5%;
+}
+
+h2 + div {
+    padding-top: 5%;
+}
+
+a + a {
+    padding-top: 10%;
+}
+
+
+a > div {
+    color: black;
+    text-decoration: none;    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.intro {
+  display: flex;
+  align-items: flex-start; /* alinha o texto ao topo da imagem */
+  gap: 20px; /* espaço entre imagem e texto */
+}
+.intro p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+
+.artigo {  
+  display: flex;
+  justify-content: center;
+  align-items: center; /* alinha o texto ao topo da imagem */
+  /*gap: 20px; /* espaço entre imagem e texto */
+}
+
+.artigo h1{  
+    font-size: 400%;
+}
+
+#sobre{
+    text-align: center;
+    padding-top: 7%;
+}
+
+#psobre{
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+#contato{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Lexend Deca', sans-serif;
+    list-style: none;
+}
