@@ -71,12 +71,13 @@ a {
     font-size: 400%;
 }
 
-#sobre{
+.sobre{
+    font-family: 'Lexend Deca', sans-serif;
     text-align: center;
     padding-top: 7%;
 }
 
-#psobre{
+.psobre{
     font-family: 'Lexend Deca', sans-serif;
     padding-top: 3%;
     padding-left: 10%;
